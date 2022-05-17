@@ -1,0 +1,19 @@
+Insert - New value
+->insert(root,newName,newNumber) where root is head of the tree;
+Search - value
+->searchNode(root,searchName);
+->searchNode(root,searchNumber);
+Delete - value
+->deleteNode(root,delNumber);
+->deleteNode(root,delName);
+Update a value:
+->searchName or searchNumber function returns a contact;
+->update contact value
+->delete the returned contact 
+->insert updated contact
+
+Print(sorted order):
+->treeSort(root1); creates a binary search tree of all contacts
+->printBST(bst);   display the inr=order traversal of binary Search Tree 
+Print(unsorted order);
+->preOrder(root);-preoder traversal of avl tree
